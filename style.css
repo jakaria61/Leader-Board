@@ -5,11 +5,25 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+
 }
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 15px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 .container{
     background-color: #FFFFFF;
@@ -121,8 +135,16 @@ hr{
 .course-duration{
 background-color:#FFE4E8;
 border-radius: 14.6913px;
-padding: 5px 5px;
 color: #FF4A60;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 7px;
 }
 
 
