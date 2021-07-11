@@ -20,6 +20,9 @@ nav a {
     margin-right: 15px;
 
 }
+nav img{
+    padding-top: 2px;
+}
 
 nav {
     display: flex;
@@ -145,6 +148,7 @@ footer{
     font-weight: 600;
     margin-top: 10px;
     padding: 7px;
+    margin: 0;
 }
 
 
